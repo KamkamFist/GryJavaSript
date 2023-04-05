@@ -1,0 +1,256 @@
+#lewy, #prawy{
+    width: 500px;
+    height: 500px;
+    margin: 0px;
+    padding: 0px;
+    float:left;
+    font-size: 400%;
+    
+}
+#lewy{
+    background-color: red;
+}
+#prawy{
+    background-color: aqua;
+}
+html{
+    background-image: url("../static/introzle.png");
+    background-size: 100% ;
+}
+#glowny1 {
+    background-color: black;
+    width: 47%;
+    height: 80vh;
+    float: left;
+    margin-top: 10vh;
+    display: flex;
+    background-image: url("../static/poczatek.png");
+    background-size: 118% ;
+    margin-left:40px;
+    margin-right: 30px;
+}
+#glowny2 {
+    background-color:rgb(44, 44, 44);
+    width: 47%;
+    height: 80vh;
+    float: left;
+    margin-top: 10vh;
+}
+.pionowy1{
+    background-color:rgb(105, 105, 105);
+  width: 24.5%;
+    height: 70%;
+    margin-left:2px;
+    margin-top:2px;
+    margin-bottom:2px;
+    float: left;
+    margin-left: 5px;
+}
+.pionowy2{
+    background-color:rgb(75, 75, 75);
+    width: 50%;
+    height: 70%;
+    margin-left:0.1%;
+    margin-top: 2px;
+    float: left;
+    background-image: url("../static/glowny\ bohater.png");
+    background-size: 98% ;
+  }
+.pionowy3{
+    background-color:rgb(105, 105, 105);
+    width: 24%;
+    height: 70%;
+    margin:2px;
+    float: left;
+  }
+  .dolny{
+    background-color:rgb(105, 105, 105);
+    width: 99%;
+    height: 29%;
+    margin:2px;
+    float: left; 
+    margin-left: 5px;
+  }
+  .kwadrat1{
+    background-color:rgb(75, 75, 75);
+    width: 80%;
+    height: 35%;
+    margin:20px;
+    float: left;
+  }
+  .kwadrat2{
+    background-color:rgb(75, 75, 75);
+    width: 80%;
+    height: 35%;
+    margin:20px;
+    float: left;
+  }
+  .kwadrat3{
+    background-color:rgb(75, 75, 75);
+    width: 80%;
+    height: 35%;
+    margin:20px;
+    float: left;
+  }
+  .kwadrat4{
+    background-color:rgb(75, 75, 75);
+    width: 80%;
+    height: 35%;
+    margin:20px;
+    float: left;
+  }
+  .plecakItem{
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 22%;
+    height: 87%;
+    background-color:rgb(75, 75, 75);
+
+  }
+  .dialogelse{
+    width: 100%;
+    height: 45px;
+    border: solid;
+    background-color: #111C65;
+    color: white;
+    font-size: 40px;
+    font-family: 'VT323', monospace;
+    padding-left: 2%;
+    padding-right: 2%;
+    overflow: hidden;
+  border-right: .15em solid rgb(255, 255, 255);
+  white-space: nowrap;
+  animation: typing 1s steps(20, end) forwards, blinking .8s infinite;
+  width: 0;
+}
+.dialogelse2{
+  width: 95%;
+  height: 20%;
+  border: solid;
+  background-color: #111C65;
+  color: white;
+  font-size: 37.5px;
+  font-family: 'VT323', monospace;
+  padding-left: 2%;
+  padding-right: 2%;
+  overflow: hidden;
+  border-right: .15em solid rgb(255, 255, 255);
+  white-space: nowrap;
+  animation: typing 1s steps(20, end) forwards, blinking .8s infinite;
+  margin-top: 4px;
+  
+}
+#background-music{
+  opacity: 0;
+}
+@keyframes blinking {
+  from { border-color:aliceblue }
+  to { border-color: rgb(255, 255, 255); }
+}
+@keyframes typing{
+  from { width: 0 }
+  to { width: 95% }
+}
+#glowny3 {
+  background-color: black;
+  width: 45%;
+  height: 80vh;
+  float: left;
+  margin-top: 3vh;
+  display: flex;
+  background-image: url("../static/chinol.png");
+  background-size: 118% ;
+  margin-left: 4.5%;
+  margin-right: 1%;
+}
+#glowny4 {
+  background-color:rgb(44, 44, 44);
+  width: 45%;
+  height: 80vh;
+  float: left;
+  margin-top: 3vh;
+  background-image: url("../static/monkeyChinczyk.png");
+  margin-right: 0px;
+}
+#dolny{
+  background-color:rgb(44, 44, 44);
+  width: 90%;
+  height: 10vh;
+  margin:2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+}
+.dialogLong{
+  width: 100%;
+  height: 41%;
+
+
+  border: solid;
+  background-color: #111C65;
+  color: white;
+  font-size: 35px;
+  font-family: 'VT323', monospace;
+  padding-left: 2%;
+  padding-right: 2%;
+  overflow: hidden;
+  border-right: .15em solid rgb(255, 255, 255);
+  white-space: nowrap;
+  animation: typing 1s steps(20, end) forwards, blinking .8s infinite;
+  margin-top: 4px;
+   margin-inline: auto;
+  
+}
+#glowny5 {
+  background-color: black;
+  width: 45%;
+  height: 80vh;
+  float: left;
+  margin-top: 3vh;
+  display: flex;
+  background-image: url("../static/messiStacja.png");
+  background-size: 118% ;
+  margin-left: 4.5%;
+  margin-right: 1%;
+}
+#glowny6 {
+  background-color:rgb(44, 44, 44);
+  width: 45%;
+  height: 80vh;
+  float: left;
+  margin-top: 3vh;
+  background-image: url("../static/stacja1.png");
+  margin-right: 0px;
+}
+.glowny2 div:hover {
+  background-color:#aaff00;
+  color: black;
+}
+
+#okno{
+  background-color:rgb(44, 44, 44);
+  width: 20vw;
+  height: 30vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35vh;
+  align-items: center;
+  border-radius: 1rem;
+  border: 5px solid black;
+}
+img{
+  margin-left: 30%;
+  margin-right: 30%;
+}
+input{
+  margin-left: 15%;
+  margin-right: 30%;
+}
+.klik{
+  margin-left: 40%;
+  margin-right: 40%;
+  background-color: aliceblue;
+  padding-left: 10px;
+  border-radius: 1rem;
+}
